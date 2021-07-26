@@ -4,15 +4,13 @@
 **TOOLS USED**: `nmap`, `Gobuster`, `CyberChef`, `php script (reverse shell)` , `John the Ripper`
 
 ## INTRODUCTION:
-------
-
 
 <p>As a complete beginner, I just looked to this room and saying to myself: “I am not ready…”, “it is a medium room, it should be hard for me…”. I thought I needed to have more knowledge to solve this room, but I solved it quite easily and I will show you all the steps.</p>
 <p><strong>Mr.Robot</strong> is a well-known CTF room on TryHackMe. As you guess, the theme is the same of the show Mr. Robot. Moreover, if you finish this room you receive the Mr. Robot badge, awesome right?</p>
 <p>I will try to put as many details as I can, like that, if you are a beginner, you will be able to understand all the steps to solve this room.</p>
 
 ## RECON (WITH SCRIPTS):
-------
+
 <p>First, I need to know where we go right? As we can see in the page of the room, it says that we need to find 3 flags (<strong>key 1, key 2 and key 3</strong>).
 <p>Let’s start as usual, running nmap to scan all the ports. Some flags:</p>
     <li> -sV : Probe open ports to determine service/version info
@@ -54,7 +52,7 @@
 </p>
 
 ## RECON (MANUAL):
-------
+
 <p>So far so good. Now ^<strong>it is time to open our browser</strong> to check all the “pages/directories” that we have found with the <strong>status 200</strong>. I will start by <strong>/robots</strong> because the goal of this page is to tell the bots of the search engines to not index specific pages. Maybe the dev wants to hide some pages? Let’s find out…
 </p>
 
@@ -85,7 +83,7 @@ Ahhhh ! We have two things; it is maybe an username and a password? Let’s try 
 Good, it worked and we confirm that we are working with a WordPress website.
 
 ## EXPLOITATION Part 1: Setting a reverse shell
-------
+
 <p>Ok, we are log in as Elliot but what does he can do (what is his privileges)? If you know a bit about WordPress, you can check this information in the “<strong>Users</strong>” area.</p>
 
 ![](img/usersarea.png)
@@ -165,7 +163,7 @@ $ password: xxxxxxxxxx
 ![](img/flag2.png)
 
 ## PRIVILEGE ESCALATION:
-------
+
 <p>Most of the time the last flag is in the root folder. So, I guess here we will need to find a way to escalate our privileges to the root user.</p>
 <p>There are several ways to find how we can escalate your privileges. But as it is a beginner-friendly writeup, let keep it simple, ok?</p>
 <p>First, let’s try to use <strong>“sudo -l”</strong>. Ok, it is doesn’t work.</p>
@@ -194,7 +192,7 @@ Let’s check on GTFOBins to see if they have something about nmap. Before that,
 <p>Well Done! We have our third and last flag!</p>
 
 ## CONCLUSION:
-------
+
 <p>I do not know if it is your case, but I overestimate a bit this room. As the level of the room is “medium”, I told myself that I was not ready for this room (as a beginner).</p>
 <p>The lesson of the day:</p>
 <p><i>“Always try hard, whatever you think, or people think! You may have more knowledge than you think.”</i></p>
