@@ -1,1 +1,1 @@
-# HackTheBox Writeups
+# HackTheBox Write-Ups
