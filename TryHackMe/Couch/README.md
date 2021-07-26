@@ -1,1 +1,1 @@
-# TryHackMe: Couch CTF - Beginner Friendlyy (detailed)
+# TryHackMe: Couch CTF - Beginner Friendly (detailed)
