@@ -1,4 +1,4 @@
 # HackTheBox Write-Ups
 
-|Writeup Date|Difficulty|Writeup Link|
-|------------|----------|------------|
+|Date|Name|Difficulty|Writeup Link|
+|----|----|----------|------------|
