@@ -1,7 +1,7 @@
 # TryHackMe: Mr.Robot CTF - Beginner Friendly (detailed)
 ![](img/mrrobot.png)
 
-**TOOLS USED**: `nmap`, `Gobuster`, `CyberChef`, `php script (reverse shell)` , `John the Ripper`
+**TOOLS USED**: `nmap` `Gobuster` `CyberChef` `php script (reverse shell)` `John the Ripper`
 
 ## INTRODUCTION:
 
