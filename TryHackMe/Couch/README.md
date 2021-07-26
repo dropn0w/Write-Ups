@@ -1,0 +1,1 @@
+# TryHackMe: Couch CTF - Beginner Friendlyy (detailed)
