@@ -1,4 +1,6 @@
 # TryHackMe: Mr.Robot CTF - Beginner Friendly (detailed)
+<i>Write-Up Date: 28-Apr-2021</i>
+
 ![](img/mrrobot.png)
 
 **TOOLS USED**: `nmap` `Gobuster` `CyberChef` `php script (reverse shell)` `John the Ripper`

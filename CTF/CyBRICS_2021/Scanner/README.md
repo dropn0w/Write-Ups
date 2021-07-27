@@ -1,5 +1,5 @@
 # Scanner — CyBRICS CTF 2021
-
+<i>Write-Up Date: 26-Jul-2021</i>
 <p>The task says that we need to play a game to get the flag. However, we can only see the flag at level 5. Let’s play!.</p>
 <p>When we open the link, we see a kind of scan that only shows a tiny part of the image for each frame of the gif. However, we can see more or less the image (until level 5).</p>
 <p>Those images change every time that you play the game, only the first image and last one (level #1 and level #5) are always the same -> “House” and the QR code.</p>
