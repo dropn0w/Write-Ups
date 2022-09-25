@@ -1,0 +1,35 @@
+{
+  "contracts": {
+    "SolveMe.sol": {
+      "SolveMe": {
+        "abi": [
+          {
+            "inputs": [],
+            "name": "isSolved",
+            "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [],
+            "name": "solveChallenge",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          }
+        ],
+        "evm": {
+          "bytecode": {
+            "generatedSources": [],
+            "linkReferences": {},
+            "object": "608060405260008060006101000a81548160ff02191690831515021790555034801561002a57600080fd5b5060ee806100396000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80633d71bea514603757806364d98f6e14603f575b600080fd5b603d6059565b005b60456075565b604051605091906093565b60405180910390f35b60016000806101000a81548160ff021916908315150217905550565b60008054906101000a900460ff1681565b608d8160ac565b82525050565b600060208201905060a660008301846086565b92915050565b6000811515905091905056fea26469706673582212200c840ef120e05cb0c86597324ab32975fda6fc6c6906fa55e8922078bee320f264736f6c63430008000033",
+            "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP CALLVALUE DUP1 ISZERO PUSH2 0x2A JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xEE DUP1 PUSH2 0x39 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3D71BEA5 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x64D98F6E EQ PUSH1 0x3F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x59 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x45 PUSH1 0x75 JUMP JUMPDEST PUSH1 0x40 MLOAD PUSH1 0x50 SWAP2 SWAP1 PUSH1 0x93 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x1 PUSH1 0x0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND DUP2 JUMP JUMPDEST PUSH1 0x8D DUP2 PUSH1 0xAC JUMP JUMPDEST DUP3 MSTORE POP POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 ADD SWAP1 POP PUSH1 0xA6 PUSH1 0x0 DUP4 ADD DUP5 PUSH1 0x86 JUMP JUMPDEST SWAP3 SWAP2 POP POP JUMP JUMPDEST PUSH1 0x0 DUP2 ISZERO ISZERO SWAP1 POP SWAP2 SWAP1 POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC DUP5 0xE CALL KECCAK256 0xE0 0x5C 0xB0 0xC8 PUSH6 0x97324AB32975 REVERT 0xA6 0xFC PUSH13 0x6906FA55E8922078BEE320F264 PUSH20 0x6F6C634300080000330000000000000000000000 ",
+            "sourceMap": "112:131:0:-:0;;;158:5;135:28;;;;;;;;;;;;;;;;;;;;112:131;;;;;;;;;;;;;;;;"
+          }
+        },
+        "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"isSolved\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"solveChallenge\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"BlueAlder duc.tf\",\"kind\":\"dev\",\"methods\":{},\"title\":\"SolveMe\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"SolveMe.sol\":\"SolveMe\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"SolveMe.sol\":{\"keccak256\":\"0x6aeba40fecb8b1c2e8c6d410bf8278b83b45f467e1edff8bc1b355e5d7b4170c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c0578c7c694414e82b1d9ffd1302ea844af6447aeda3f3f4e0f46185f5377772\",\"dweb:/ipfs/QmPRyGku65tm6Uf9wp1bP8reFzLgqeEyFym8HUV2VP1mvr\"]}},\"version\":1}"
+      }
+    }
+  },
+  "sources": { "SolveMe.sol": { "id": 0 } }
+}
